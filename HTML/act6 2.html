@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Form Elements</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username"><br><br>
+ 
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+ 
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+            <label for="traveling">Traveling</label>
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports">Sports</label><br><br>
+ 
+            <label for="country">Country:</label>
+            <select id="country" name="country" size="3">
+                <option value="usa">USA</option>
+                <option value="india">India</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+ 
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" cols="30" placeholder="Enter your feedback"></textarea><br><br>
+ 
+            <label for="language">Choose a language:</label>
+            <input list="languages" id="language" name="language">
+            <datalist id="languages">
+                <option value="English">
+                <option value="Spanish">
+                <option value="French">
+                <option value="German">
+            </datalist><br><br>
+ 
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
